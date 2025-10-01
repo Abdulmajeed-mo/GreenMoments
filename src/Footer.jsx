@@ -1,11 +1,11 @@
-// © 2025
+
 
 function Footer(){
     return(
 
 
 
-        <></>
+        <>© 2025</>
     )
 
 

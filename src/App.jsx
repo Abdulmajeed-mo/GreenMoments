@@ -1,17 +1,13 @@
-import Navbar from './Navbar.jsx'
-import Gif  from './Gif.jsx'
-
+// import {Route , Routes } from "react-router"
+import HomePage from "./page/HomePage";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
-
   return (
-    <div className='p-15 px-50   min-h-screen bg-gradient-to-b from-blue-500 to-cyan-500 '>
-      <Navbar />
-       <Gif />
-    </div>
-    
-
-  )
+    <Routes>
+      <Route path="/" element={<HomePage/>} />
+    </Routes>
+  );
 }
 
-export default App   
+export default App;
